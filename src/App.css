@@ -20,9 +20,11 @@ h1 {
   font-size: 3rem;
   color: violet;
   -webkit-text-stroke: 3px #efefef;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
 }
+
 button {
   position: absolute;
   background-color: transparent;
@@ -35,7 +37,9 @@ button {
   transform: translateX(-50%);
   cursor: pointer;
 }
-
+.go-back-btn {
+  visibility: hidden;
+}
 #earth {
   position: absolute;
   display: block;
@@ -83,5 +87,17 @@ button {
   position: absolute;
   height: 0;
   top: 70px;
+  transform: translateX(-50%);
+}
+
+.pop-up {
+  position: absolute;
+  visibility: hidden;
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  color: violet;
+  -webkit-text-stroke: 2px #efefef;
+  left: 50%;
   transform: translateX(-50%);
 }
