@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
 body,
 html {
   padding: 0;
@@ -11,11 +13,34 @@ html {
   width: 300%;
   min-height: 100vh;
 }
+h1 {
+  position: absolute;
+  font-family: "Luckiest Guy", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: violet;
+  -webkit-text-stroke: 3px #efefef;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button {
+  position: absolute;
+  background-color: transparent;
+  color: violet;
+  border: 2px solid violet;
+  padding: 10px 15px;
+  border-radius: 30px;
+  top: 540px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
 #earth {
   position: absolute;
   display: block;
   width: 280px;
-  top: 240px;
+  top: 220px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -23,7 +48,7 @@ html {
   display: block;
   position: absolute;
   width: 280px;
-  top: 240px;
+  top: 220px;
   left: 250%;
   transform: translateX(-50%);
 }
@@ -32,7 +57,7 @@ html {
   position: absolute;
   display: block;
   left: 50%;
-  top: 170px;
+  top: 150px;
 }
 #rocket-body {
   display: block;
@@ -54,9 +79,9 @@ html {
 }
 
 #flame {
-  display: none;
+  visibility: hidden;
   position: absolute;
-  height: 60px;
+  height: 0;
   top: 70px;
   transform: translateX(-50%);
 }
