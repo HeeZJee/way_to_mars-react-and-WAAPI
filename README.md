@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Application URL
+[www.heezjee-waytomars.surge.sh/](https://heezjee-waytomars.surge.sh/)
+
 ## Available Scripts
 
 In the project directory, you can run:
